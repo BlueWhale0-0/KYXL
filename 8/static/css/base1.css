@@ -1,0 +1,11 @@
+body{
+    background:#ddd;
+}
+
+.main{
+    background:white;
+    width:700px;
+    margin:0 auto;
+    overflow:hidden;
+    padding:10px;
+}
