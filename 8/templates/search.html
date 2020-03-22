@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}搜索{% endblock %}
+
+{% block head %}<link rel="stylesheet" href="/static/css/base1.css">{% endblock %}
+
+{% block main %}
+
+
+    <form method="post" action="/get_path">
+        <input type="text" class="form-control input-lg" name="keyword"><br>
+        <input type="submit" value="搜索">
+    </form>
+
+
+
+{% endblock %}
